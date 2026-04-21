@@ -3,6 +3,10 @@
 This repository allows to run the ProSAIL RTM in forward mode and generate Look-Up Tables (LUTs).
 It provides default data and parametrization for running the model for winter wheat in Switzerland and for the Sentinel-2 sensor.
 
+> [!IMPORTANT]
+> This repo provides code to run ProSAIL using winter wheat + Switzerland setup.
+> It also allows simulations with various sensors (Sentinel, Planet, HySpex)
+> For more examples on ProSAIL parametrization for different crop distributions (e.g. ESA SNAP LAI like models, codistributing variables, other countries) and updated soil data, refer to: https://github.com/EOA-team/LAI_retrieval_model
 
 ## Installation
 
