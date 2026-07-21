@@ -6,7 +6,7 @@ numpy
 pandas
 scipy
 seaborn
-scikit-lear
+scikit-learn
 spart-python
 spectral
 nvtx
