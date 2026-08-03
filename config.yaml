@@ -1,5 +1,5 @@
 LUT: 
-    lut_params: 'lut_params/prosail_danner-etal_switzerland_soil.csv' # Range and distribution of leaf-canopy variables 'lut_params/prosail_danner-etal_switzerland_nosoil.csv'
+    lut_params: 'lut_params/prosail_danner-etal_europe_nosoil_snap.csv' # Range and distribution of leaf-canopy variables 'lut_params/prosail_danner-etal_switzerland_nosoil.csv'
     lut_size : 10000
     sampling_method: 'FRS'
     apply_glai_ccc_constraint: false
