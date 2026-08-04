@@ -14,7 +14,7 @@ RTM:
     linearize_lai : false
     
 out_dir : 'results'
-soil_path : 'data/sampled_spectra_all_CH.pkl' # or null
+soil_path : null # or null
 traits : ['lai', 'cab', 'ccc', 'car']
 
 
