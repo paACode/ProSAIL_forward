@@ -163,8 +163,15 @@ class Sensors(object):
         """
         defines hypersectral drone
         """
-        num_bands = 496
-        band_names = [f'B{i}' for i in range(num_bands)]
+        def __init__(
+            self,
+            fpath_srf: Path = Path(__file__).resolve().parents[2] / 'data' / 'mjolnir_wvl_fwhm.csv'
+        ):
+            self.fpath_srf = Path(fpath_srf)
+            srf = pd.read_csv(self.fpath_srf, sep=';')
+            self.num_bands = len(srf)
+            self.band_names = [f'B{i}' for i in range(self.num_bands)]
+            self.band_widths = srf['fwhm'].tolist()
 
         def fwhm_to_sigma(self, fwhm):
             return fwhm / (2 * np.sqrt(2 * np.log(2)))
