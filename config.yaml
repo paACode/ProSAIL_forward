@@ -1,6 +1,6 @@
 LUT: 
     lut_params: 'lut_params/prosail_danner-etal_europe_nosoil_snap.csv' # Range and distribution of leaf-canopy variables 'lut_params/prosail_danner-etal_switzerland_nosoil.csv'
-    lut_size : 10000
+    lut_size : 50000 # Train 50k, Test 10k, Val 5k
     sampling_method: 'FRS'
     apply_glai_ccc_constraint: false
     apply_chlorophyll_carotiniod_constraint: false
