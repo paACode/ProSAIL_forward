@@ -8,6 +8,7 @@ build/
 
 # Virtual environments
 .venv/
+.venv_slurm/
 venv/
 env/
 
@@ -21,3 +22,10 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+#Results
+results/
+
+#Slurm
+
+slurm*
