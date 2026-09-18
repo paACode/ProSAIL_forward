@@ -5,7 +5,7 @@ LUT:
     # Make a mix of Danner Publication and Lukas Graf
     # https://www-sciencedirect-com.agros.swissconsortium.ch/science/article/pii/S003442572300411X
     # https://www.sciencedirect.com/science/article/pii/S092427162100023X
-    lut_size : 5000 # Train 50k, Test 10k, Val 5k
+    lut_size : 10000 # Train 50k, Test 10k, Val 5k
     sampling_method: 'FRS'
     apply_glai_ccc_constraint: false
     apply_chlorophyll_carotiniod_constraint: false
@@ -18,9 +18,9 @@ RTM:
     remove_invalid_green_peaks : true
     linearize_lai : false
     
-out_dir : 'results'
+out_dir : 'results/test'
 soil_path : null # or null
-traits : ['lai', 'cab', 'ccc', 'car']
+traits : ['lai', 'cab', 'ccc', 'car', 'cw']
 
 
 
